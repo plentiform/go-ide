@@ -9,8 +9,11 @@ This project is a lightweight, [Neovim](https://neovim.io/) integrated developme
 
 ## Prerequisites
 
-1. Install neovim: https://github.com/neovim/neovim/wiki/Installing-Neovim
-2. Install vim-plug: https://github.com/junegunn/vim-plug#installation
+1. Install golang: https://golang.org/doc/install
+2. Install gocode: `go get -u github.com/stamblerre/gocode`
+3. Install python support for neovim: `pip3 install pynvim`
+4. Install neovim: https://github.com/neovim/neovim/wiki/Installing-Neovim
+5. Install vim-plug: https://github.com/junegunn/vim-plug#installation
 
 ## Installation
 
@@ -27,6 +30,7 @@ cd ~/Downloads/; curl -o init.vim https://raw.githubusercontent.com/plentiform/g
 4. Move the downloaded file to the correct location: `mv ~/Downloads/init.vim ~/.config/nvim/.`
 5. Edit the new configuration file: `nvim ~/.config/nvim/init.vim`
 6. If the plugins didn't automatically install, press colon `:` then type `PlugInstall` and press <kbd>Enter</kbd>
+7. Use vim-go to install binaries, press colon `:` then type `GoInstallBinaries` and press <kbd>Enter</kbd>
 
 ## Features
 
