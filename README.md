@@ -14,8 +14,8 @@ This project is a lightweight, [Neovim](https://neovim.io/) integrated developme
 
 ## Installation
 
-1. Download the config file: `wget https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim`
-2. Move the downloaded file to the correct location: `mv init.vim ~/.config/nvim/.`
+1. [Download](https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim) the config file: `cd ~/Downloads/; wget https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim` or `cd ~/Downloads/; curl -o init.vim https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim`
+2. Move the downloaded file to the correct location: `mv ~/Downloads/init.vim ~/.config/nvim/.`
 3. Edit the new configuration file: `nvim ~/.config/nvim/init.vim`
 4. Press colon `:` then type `PlugInstall` and press <kbd>Enter</kbd>
 
