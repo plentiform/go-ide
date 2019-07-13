@@ -10,6 +10,12 @@ This project is a lightweight, [Neovim](https://neovim.io/) integrated developme
 ## Prerequisites
 
 1. Install golang: https://golang.org/doc/install
+2. Fix paths by adding the following to `~/.bashrc` (Ubuntu) or `~/.bash_profile` (Mac):
+```
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
+```
+(make sure to run `source ~/.bashrc`/`source ~/.bash_profile` or open a new terminal to apply changes)
 2. Install gocode: `go get -u github.com/stamblerre/gocode`
 3. Install python support for neovim: `pip3 install pynvim`
 4. Install neovim: https://github.com/neovim/neovim/wiki/Installing-Neovim
