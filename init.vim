@@ -16,17 +16,19 @@ Plug 'mkitt/tabline.vim'
 Plug 'ryanoasis/vim-devicons'
 "Color:
 Plug 'morhetz/gruvbox'
+"Golang:
+Plug 'fatih/vim-go'
 "Autocomplete:
 Plug 'ncm2/ncm2'
-Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'ncm2/ncm2-go'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 "Snippets:
 Plug 'ncm2/ncm2-ultisnips'
 Plug 'SirVer/ultisnips'
 "Git:
 Plug 'tpope/vim-fugitive'
-"Golang:
-Plug 'fatih/vim-go'
 call plug#end()
 
 "COPY/PASTE:
