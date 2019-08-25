@@ -42,10 +42,33 @@ cd ~/Downloads/; curl -o init.vim https://raw.githubusercontent.com/plentiform/g
 ## Features
 
 - File browser: `nt`
+
+![](gifs/nerdtree.gif)
+
 - File search: <kbd>Ctrl</kbd>-`f`
-- Text search: `/` then type your search terms (find terms <kbd>Enter</kbd>, next `n`, previous `N`, clear highlight <kbd>Ctrl</kbd>-`l`)  
+
+![](gifs/fzf.gif)
+
+- Text search: `/` then type your search terms (find terms <kbd>Enter</kbd>, next `n`, previous `N`, clear highlight <kbd>Ctrl</kbd>-`l`)
+
+![](gifs/text_search.gif)
+
 - Go to definition: `gd` (traverse back with <kbd>Ctrl</kbd>-`o`)
+
+![](gifs/go_def.gif)
+
 - Method and property completion (cycle forward: <kbd>Tab</kbd>, cycle backward <kbd>Shift</kbd>-<kbd>Tab</kbd>, select <kbd>Enter</kbd>)
+
+![](gifs/ncm2.gif)
+
 - Snippets / shortcuts (next input <kbd>Ctrl</kbd>-`j`, previous input <kbd>Ctrl</kbd>-`k`)
+
+![](gifs/snippets.gif)
+
 - Debugger
+
+![](gifs/debugger.gif)
+
 - Auto imports and tab formatting
+
+![](gifs/imports.gif)
