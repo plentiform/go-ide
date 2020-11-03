@@ -46,7 +46,7 @@ cd ~/Downloads/; curl -o init.vim https://raw.githubusercontent.com/plentiform/g
 
 ![](gifs/nerdtree.gif)
 
-- File search: <kbd>Ctrl</kbd>-`o`
+- File search: <kbd>Ctrl</kbd>-`p`
 
 ![](gifs/fzf.gif)
 
