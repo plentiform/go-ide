@@ -21,6 +21,7 @@ export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 3. Install python support for neovim: `pip3 install pynvim`
 4. Install neovim: https://github.com/neovim/neovim/wiki/Installing-Neovim
 5. Install vim-plug: https://github.com/junegunn/vim-plug#installation
+6. Install nerd-fonts: https://github.com/ryanoasis/nerd-fonts#font-installation
 
 ## Installation
 
@@ -45,7 +46,7 @@ cd ~/Downloads/; curl -o init.vim https://raw.githubusercontent.com/plentiform/g
 
 ![](gifs/nerdtree.gif)
 
-- File search: <kbd>Ctrl</kbd>-`f`
+- File search: <kbd>Ctrl</kbd>-`p`
 
 ![](gifs/fzf.gif)
 
