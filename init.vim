@@ -82,7 +82,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 "FILE SEARCH:
 "------------
 "allows FZF to open by pressing CTRL-F
-map <C-f> :FZF<CR>
+map <C-o> :FZF<CR>
 "allow FZF to search hidden 'dot' files
 let $FZF_DEFAULT_COMMAND = "find -L"
 
